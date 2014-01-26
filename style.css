@@ -1,0 +1,195 @@
+/* Hoja de Estilo de Bogotá en Bola
+ * Por: Javier Moreno
+ * @bluelephant
+ * http://finiterank.com/notas
+*/
+
+/* Page Reset ***********************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+	}
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+del {text-decoration: line-through;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+body {
+	line-height: 1;
+	font-family: Helvetica;
+	overflow: hidden;
+	}
+/* Basic Page Styling ***************************/
+#viewport {
+	width: 100%;
+	height: 100%;
+	}
+
+#comment {
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    background: #ddd;
+    /*CSS3*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    filter:alpha(opacity=95);
+    -moz-opacity:0.95;
+    -khtml-opacity: 0.95;
+    opacity: 0.95;
+    font-size: 0.5em;
+}
+
+
+#formWrapper {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100px;
+    background: #ddd;
+    /*CSS3*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    filter:alpha(opacity=95);
+    -moz-opacity:0.95;
+    -khtml-opacity: 0.95;
+    opacity: 0.95;
+    font-size: 0.5em;
+}
+
+#formWrapper p {
+	font-size: 0.75em;
+	margin: 0 0 8px;
+	}
+
+#formWrapper img {
+	display: block;
+	position: absolute;
+	right: 12px;
+	top: 35px;
+	}
+
+#formWrapper div.boton2, #formWrapper div.otreador, #formWrapper div.boton, #formWrapper div.ocultador {cursor: pointer; margin:10px;
+	/*CSS3*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:5px;
+	}
+
+#formWrapper div.boton2, #formWrapper div.boton{background:#eee;}
+
+#formWrapper div.boton2 {display: none;}
+
+#formWrapper div.otreador, #formWrapper div.ocultador{background:#e0b8b8;}
+
+
+#formWrapper div.active{background: #999;}
+
+#formWrapper div.boton:hover, #formWrapper div.ocultador:hover{ background: #777;}
+
+#titulo {position: absolute;
+	 top:10px;
+	 right:10px;
+	 width: 400px;
+	 display: block;
+	 font-size: .5em;
+	 color: #999;
+	 text-align:right;
+}
+
+#titulo h1{font-size:3em; margin-bottom:5px;}
+#titulo h2{font-size:1.5em; color:#bbb;}
+
+#description {position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;
+	border: 1px solid #ccc;
+	padding: 10px;
+	width: 100px;
+	background: #ddd;
+	/*CSS3*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	filter:alpha(opacity=95);
+	-moz-opacity:0.95;
+	-khtml-opacity: 0.95;
+	opacity: 0.95;
+	font-size: 0.5em;
+	}
+
+#source {position: absolute;
+	 bottom: 8px;
+	 left: 8px;
+	 display: inline;
+	 color: #321e1e;
+	 font-size: 0.5em;
+	 line-height: 1.25;}
+
+#source a{font-size:1em;
+	 line-height: 1.25;
+	 color: #bE3c14;}
+
+#credits {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	}
+#credits li {
+	float: left;
+	display: inline;
+	padding: 0 4px;
+	color: #321E1E;
+	font-size: 0.5em;
+	border-right: 1px solid #321E1E;
+	line-height: 1.25;
+	}
+#credits .last {border: 0;}
+#credits li a {
+	font-size: 1em;
+	line-height: 1.25;
+	color: #BE3C14;
+	}
